@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-      <meta charset="UTF-8"?
+      <meta charset="UTF-8">
       <title>The Code Review</title>
       <meta name="description" content="DESCRIPTION">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,22 +12,115 @@
 
 <body>
   <header>
-   <<h1>CODE REVIEW</h1>
+   <h1>THE CODE REVIEW</h1>
   </header>
 
  <div class="container">
    <div class="section-1">
-     <<h2>Signup for our newsletter</h2>
+     <h2>Signup for our newsletter</h2>
      <p>
        Get the lastest news on how your code is doing right in your inbox
      </p>
    </div>
 
-  <hr />
+   <div class="border"></div>
 
-  <<div class="<section-2>"
+      <!-- <div > -->
+        <form>
+         <fieldset class="section-2">
+           <legend>
+             Contact Information
+           </legend>
 
-  </div>
- </div>
-</body>
-</html>
+           <div class="top-form-part">
+
+             <div class="input-section">
+               <label for="fullName">Full Name</label>
+               <input type="text" id="fullName" placeholder="Required" name="fullName" required/>
+             </div>
+             <br>
+
+             <div class="input-section">
+               <label for="email">Email address</label>
+               <input type="email" id="email" placeholder="Required" name="email" required/>
+             </div>
+             <br>
+
+             <div class="input-section">
+               <label for="phone">Phone Number</label>
+               <input type="tel" id="phone" name="phone" placeholder="Phone"/>
+             </div>
+             <br>
+
+             <div class="input-section">
+               <label for="address">Street Address</label>
+               <input type="text" name="address" id="address" placeholder="Street Address"/>
+             </div>
+             <br>
+
+             <div class="input-section">
+               <label for="city">City</label>
+               <input type="text" id="city" name="city" placeholder="City"/>
+             </div>
+             <br>
+
+             <div class="input-section">
+               <label for="state">State</label>
+               <select id="state" name="state">
+                 <option value="select">Select State</option>
+
+               </select>
+             </div>
+             <br>
+
+             <div class="input-section">
+               <label for="zip">Zip Code</label>
+               <input type="number" id="zip" name="zip" placeholder="Zip"/>
+             </div>
+             <br>
+
+             </div>
+             </fieldset>
+
+             <hr />
+
+             <fieldset  class="bottom-form-part">
+               <legend>
+               Newsletter
+               </legend>
+               <p> Select the newsletters you would like to recieve</p>
+               <input type="checkbox" name="news" id="htmlnews">
+               <label for="htmlnews">HTML News</label>
+               <br>
+
+
+               <input type="checkbox" name="news" id="css">
+               <label for="css">CSS News</label>
+               <br>
+
+               <input type="checkbox" name="new" id="js">
+               <label for="js">Javascript News</label>
+               <br>
+
+               <p>Newsletter format</p>
+               <input type="radio" name="format" id="html">
+               <label for="html">HTML</label>
+               <br>
+
+               <input type="radio" name="format" id="text">
+               <label for="text">Plain Text</label>
+               <br>
+
+               <div class="txt-area">
+                 <label for="comments">Other topics you'd like to hear about</label>
+                 <textarea name="name" rows="8" cols="80" id="comments"></textarea>
+               </div>
+
+               <button type="submit">Sign Up</button>
+               <p class="copy">Copyright The Code Review</p>
+           </fieldset>
+         </form>
+      <!-- </div> -->
+    </div>
+  </body>
+  </html>
